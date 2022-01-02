@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.title{
+    display: block;
+    text-align: center;
+    font: 1em sans-serif ;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header .logo-content{
+    margin: 1em;
+}
+.header .logo-content img{
+    width: 90%;
+    height: 10%;
+}
+.header .emp-text{
+    font: normal 1em sans-serif;
+    color: rgb(53, 236, 53);
+}
+.header .emp-payroll{
+    color: green;
+}
